@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "file/Stay_True_1.20.zip",
+    "seasons:seasonal_lush_caves",
+    "file/MandalasGUI+Dakmode_1.21.6_v2.0.zip",
+    "file/MandalasGUI_AddOn+DarkModded_V3.7.zip", 
+    "file/Mandalas_Legacy_Gui_Background.zip",
+    "file/Mandala's GUI Vanilla Crosshair.zip",
+    "file/Mandala's GUI - Dark Mode Compat 0.3.1.zip",
+    "autoslabs:distinct_slabs",
+    "file/AutoslabsCompat.zip",
+    "file/Icon Xaero's 1.21.zip",
+    "file/Better_Modded_GUI.zip",
+    "file/Mandala Utopia.zip",
+    "file/NoBushyLeaves.zip",
+    "file/Stay Clear V1.1 [1.20.1].zip",
+    "file/Beautiful Enchanted Books - MC 1.20.X - 7.0.0.zip",
+    "file/Armor Trims Compat 1.1.zip",
+    "file/Enchantment Descriptions 1.2.zip",
+    "Fabrication",
+    "Fabrication grayscale"
+
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/MoreStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
+      "hidden": true
+    },
+    "file/FarmersDelight_ToolFix_1.1+1.20.x.zip": {
+      "hidden": true
+    },
+    "file/Farmer's Delight Cutting Compat 1.0.zip": {
+      "hidden": true
+    },
+    "file/AdventureZ_NetheriteFix_1.0+1.20.1.zip": {
+      "hidden": true
+    },   
+    "file/Ichphilipps-Endcity-Better-End-Lootr.zip": {
+      "hidden": true
+    },   
+    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1.zip": {
+      "hidden": true
+    },
+    "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
+      "hidden": true
+    },
+    "file/Trinkets_OffhandFix_1.2+1.20.1.zip": {
+      "hidden": true
+    },
+    "file/BetterEndCities-Vanilla.zip": {
+      "hidden": true
+    },
+    "file/Soul_stone_recipe_bygonenether_datapack.zip": {
+      "hidden": true
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bountiful_v3.zip": {
+      "hidden": true
+    },
+    "continuity:default": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Monuments_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Strongholds_v5.zip": {
+      "hidden": true
+    },
+    "file/Scaring_The_Scarecrows_1.20.1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bygone_Nether_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Chef's_Delight_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v5.zip": {
+      "hidden": true
+    },
+    "file/backpacked_recipe_fix_datapack.zip": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
+      "hidden": true
+    },
+    "$polymer-resources": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    },
+    "lambdabettergrass:default": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    }
+    }
+  }
