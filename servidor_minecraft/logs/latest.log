@@ -1,108 +1,100 @@
-[08Jul2025 23:48:37.481] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.2.93, --fml.fmlVersion, 1.0.16, --fml.mcVersion, 1.20.2, --fml.neoFormVersion, 20231019.002635, nogui]
-[08Jul2025 23:48:37.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[08Jul2025 23:48:37.594] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/bettermccarajomierda/servidor_minecraft/config/fml.toml is not correct. Correcting
-[08Jul2025 23:48:37.595] [main/INFO] [net.neoforged.fml.loading.FMLConfig/CORE]: Incorrect key [disableConfigWatcher] was corrected from null to false
-[08Jul2025 23:48:37.596] [main/INFO] [net.neoforged.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[08Jul2025 23:48:37.596] [main/INFO] [net.neoforged.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[08Jul2025 23:48:37.613] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[08Jul2025 23:48:37.662] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/bettermccarajomierda/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2379!/ Service=ModLauncher Env=SERVER
-[08Jul2025 23:48:37.808] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/neoforged/fancymodloader/core/1.0.16/core-1.0.16.jar is missing mods.toml file
-[08Jul2025 23:48:37.809] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/neoforged/fancymodloader/language-java/1.0.16/language-java-1.0.16.jar is missing mods.toml file
-[08Jul2025 23:48:37.813] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/neoforged/fancymodloader/language-lowcode/1.0.16/language-lowcode-1.0.16.jar is missing mods.toml file
-[08Jul2025 23:48:37.814] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/neoforged/fancymodloader/language-minecraft/1.0.16/language-minecraft-1.0.16.jar is missing mods.toml file
-[08Jul2025 23:48:37.824] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "core-1.0.16.jar" of type LIBRARY with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@545de5a4
-[08Jul2025 23:48:37.825] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-java-1.0.16.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@545de5a4
-[08Jul2025 23:48:37.825] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-lowcode-1.0.16.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@545de5a4
-[08Jul2025 23:48:37.825] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-minecraft-1.0.16.jar" of type LANGPROVIDER with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@545de5a4
-[08Jul2025 23:48:37.825] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.2-20231019.002635-srg.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@545de5a4
-[08Jul2025 23:48:37.826] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.2.93-universal.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@545de5a4
-[08Jul2025 23:48:37.829] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "events-1.0.16.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@7cbee484
-[08Jul2025 23:48:37.918] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[08Jul2025 23:48:37.918] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.1.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@22c86919
-[08Jul2025 23:48:39.172] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[08Jul2025 23:48:45.777] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.2.93, for MC 1.20.2 with MCP 20231019.002635
-[08Jul2025 23:48:46.251] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08Jul2025 23:48:47.067] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/minecraft/server/1.20.2-20231019.002635/server-1.20.2-20231019.002635-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
-[08Jul2025 23:48:47.067] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/minecraft/server/1.20.2-20231019.002635/server-1.20.2-20231019.002635-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
-[08Jul2025 23:48:48.728] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Jul2025 23:48:48.863] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Jul2025 23:48:49.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.2
-[08Jul2025 23:48:49.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Jul2025 23:48:49.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Jul2025 23:48:49.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Jul2025 23:48:49.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Jul2025 23:48:49.461] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Jul2025 23:48:49.517] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Jul2025 23:48:49.517] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Jul2025 23:48:49.518] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Jul2025 23:48:49.518] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Jul2025 23:48:49.544] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Configuration file ./world/serverconfig/neoforge-server.toml is not correct. Correcting
-[08Jul2025 23:48:49.546] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[08Jul2025 23:48:49.546] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[08Jul2025 23:48:49.547] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[08Jul2025 23:48:49.547] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[08Jul2025 23:48:49.548] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, neoforge:default_handler. 
-[08Jul2025 23:48:49.548] [Server thread/WARN] [net.neoforged.neoforge.common.ModConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[08Jul2025 23:48:49.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Jul2025 23:48:50.163] [Netty Epoll Server IO #2/INFO] [net.neoforged.neoforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[08Jul2025 23:48:50.167] [Netty Epoll Server IO #1/INFO] [net.neoforged.neoforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[08Jul2025 23:48:56.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Jul2025 23:48:57.542] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:48:57.547] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:48:57.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:48:58.321] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:48:58.999] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:48:59.267] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:48:59.753] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Jul2025 23:49:00.255] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Jul2025 23:49:00.823] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[08Jul2025 23:49:01.257] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[08Jul2025 23:49:01.753] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[08Jul2025 23:49:02.253] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[08Jul2025 23:49:02.764] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[08Jul2025 23:49:03.255] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[08Jul2025 23:49:03.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[08Jul2025 23:49:04.268] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[08Jul2025 23:49:04.754] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[08Jul2025 23:49:05.273] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[08Jul2025 23:49:05.770] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[08Jul2025 23:49:06.254] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[08Jul2025 23:49:06.754] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[08Jul2025 23:49:07.261] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[08Jul2025 23:49:07.779] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[08Jul2025 23:49:08.260] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[08Jul2025 23:49:08.760] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[08Jul2025 23:49:09.260] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[08Jul2025 23:49:09.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[08Jul2025 23:49:10.253] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[08Jul2025 23:49:10.759] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[08Jul2025 23:49:11.257] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[08Jul2025 23:49:11.755] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[08Jul2025 23:49:12.252] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[08Jul2025 23:49:12.757] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[08Jul2025 23:49:13.253] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[08Jul2025 23:49:13.753] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[08Jul2025 23:49:14.259] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[08Jul2025 23:49:14.759] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[08Jul2025 23:49:15.253] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[08Jul2025 23:49:15.758] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[08Jul2025 23:49:16.279] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[08Jul2025 23:49:16.756] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[08Jul2025 23:49:17.253] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[08Jul2025 23:49:17.756] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[08Jul2025 23:49:18.253] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[08Jul2025 23:49:18.756] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[08Jul2025 23:49:19.268] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[08Jul2025 23:49:19.752] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[08Jul2025 23:49:20.258] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[08Jul2025 23:49:20.754] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[08Jul2025 23:49:21.256] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[08Jul2025 23:49:21.755] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[08Jul2025 23:49:22.258] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[08Jul2025 23:49:22.776] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[08Jul2025 23:49:23.254] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[08Jul2025 23:49:23.754] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[08Jul2025 23:49:24.253] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[08Jul2025 23:49:24.394] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 27642 ms
-[08Jul2025 23:49:24.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.860s)! For help, type "help"
-[08Jul2025 23:49:24.413] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[00:02:31] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[00:02:31] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 17
+	- minecraft 1.20.1
+[00:02:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:02:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:02:39] [main/INFO]: Loaded 7 recipes
+[00:02:39] [main/INFO]: Loaded 1271 advancements
+[00:02:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:02:39] [Server thread/INFO]: Loading properties
+[00:02:39] [Server thread/INFO]: Default game type: SURVIVAL
+[00:02:39] [Server thread/INFO]: Generating keypair
+[00:02:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:02:40] [Server thread/INFO]: Using epoll channel type
+[00:02:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:02:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:02:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:02:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:02:40] [Server thread/INFO]: Preparing level "world"
+[00:02:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:02:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:02:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:02:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:02:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:02:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:02:49] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[00:02:49] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[00:02:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[00:02:50] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[00:02:51] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[00:02:51] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[00:02:52] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[00:02:52] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[00:02:53] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[00:02:53] [Worker-Main-1/INFO]: Preparing spawn area: 11%
+[00:02:54] [Worker-Main-3/INFO]: Preparing spawn area: 12%
+[00:02:54] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[00:02:55] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[00:02:55] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[00:02:56] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[00:02:56] [Worker-Main-3/INFO]: Preparing spawn area: 19%
+[00:02:57] [Worker-Main-3/INFO]: Preparing spawn area: 20%
+[00:02:57] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[00:02:58] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[00:02:58] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[00:02:59] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[00:02:59] [Worker-Main-3/INFO]: Preparing spawn area: 29%
+[00:03:00] [Worker-Main-2/INFO]: Preparing spawn area: 31%
+[00:03:00] [Worker-Main-3/INFO]: Preparing spawn area: 33%
+[00:03:01] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[00:03:01] [Worker-Main-2/INFO]: Preparing spawn area: 39%
+[00:03:02] [Worker-Main-3/INFO]: Preparing spawn area: 41%
+[00:03:02] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[00:03:03] [Worker-Main-1/INFO]: Preparing spawn area: 45%
+[00:03:03] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[00:03:04] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[00:03:04] [Worker-Main-1/INFO]: Preparing spawn area: 54%
+[00:03:05] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[00:03:05] [Worker-Main-2/INFO]: Preparing spawn area: 59%
+[00:03:06] [Worker-Main-2/INFO]: Preparing spawn area: 62%
+[00:03:06] [Worker-Main-1/INFO]: Preparing spawn area: 65%
+[00:03:07] [Worker-Main-3/INFO]: Preparing spawn area: 68%
+[00:03:07] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[00:03:08] [Worker-Main-1/INFO]: Preparing spawn area: 72%
+[00:03:08] [Worker-Main-2/INFO]: Preparing spawn area: 75%
+[00:03:09] [Worker-Main-2/INFO]: Preparing spawn area: 79%
+[00:03:09] [Worker-Main-2/INFO]: Preparing spawn area: 82%
+[00:03:10] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[00:03:10] [Worker-Main-3/INFO]: Preparing spawn area: 87%
+[00:03:11] [Worker-Main-2/INFO]: Preparing spawn area: 90%
+[00:03:11] [Worker-Main-1/INFO]: Preparing spawn area: 93%
+[00:03:12] [Worker-Main-3/INFO]: Preparing spawn area: 96%
+[00:03:12] [Server thread/INFO]: Time elapsed: 26007 ms
+[00:03:12] [Server thread/INFO]: Done (32.538s)! For help, type "help"
+[00:03:32] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56359] logged in with entity id 345 at (4.5, 72.0, 2.5)
+[00:03:32] [Server thread/INFO]: MauSlayer_ joined the game
+[00:03:32] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:03:32] [Server thread/INFO]: MauSlayer_ left the game
+[00:03:46] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56377] logged in with entity id 379 at (4.5, 72.0, 2.5)
+[00:03:46] [Server thread/INFO]: MauSlayer_ joined the game
+[00:03:46] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:03:46] [Server thread/INFO]: MauSlayer_ left the game
+[00:03:49] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56380] logged in with entity id 417 at (4.5, 72.0, 2.5)
+[00:03:49] [Server thread/INFO]: MauSlayer_ joined the game
+[00:03:49] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:03:49] [Server thread/INFO]: MauSlayer_ left the game
+[00:04:54] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56546] logged in with entity id 467 at (4.5, 72.0, 2.5)
+[00:04:54] [Server thread/INFO]: MauSlayer_ joined the game
+[00:04:55] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:04:55] [Server thread/INFO]: MauSlayer_ left the game
+[00:04:58] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56554] logged in with entity id 486 at (4.5, 72.0, 2.5)
+[00:04:58] [Server thread/INFO]: MauSlayer_ joined the game
+[00:04:59] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:04:59] [Server thread/INFO]: MauSlayer_ left the game
+[00:07:28] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56815] logged in with entity id 507 at (4.5, 72.0, 2.5)
+[00:07:28] [Server thread/INFO]: MauSlayer_ joined the game
+[00:07:29] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:07:29] [Server thread/INFO]: MauSlayer_ left the game
