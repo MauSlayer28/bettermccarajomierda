@@ -1,100 +1,82 @@
-[00:02:31] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[00:02:31] [main/INFO]: Loading 4 mods:
+[00:30:56] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[00:30:56] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
 	- java 17
 	- minecraft 1.20.1
-[00:02:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:02:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:02:39] [main/INFO]: Loaded 7 recipes
-[00:02:39] [main/INFO]: Loaded 1271 advancements
-[00:02:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:02:39] [Server thread/INFO]: Loading properties
-[00:02:39] [Server thread/INFO]: Default game type: SURVIVAL
-[00:02:39] [Server thread/INFO]: Generating keypair
-[00:02:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:02:40] [Server thread/INFO]: Using epoll channel type
-[00:02:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:02:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:02:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:02:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:02:40] [Server thread/INFO]: Preparing level "world"
-[00:02:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:02:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:02:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[00:02:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:02:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[00:02:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[00:02:49] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[00:02:49] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[00:02:50] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[00:02:50] [Worker-Main-1/INFO]: Preparing spawn area: 3%
-[00:02:51] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[00:02:51] [Worker-Main-1/INFO]: Preparing spawn area: 6%
-[00:02:52] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[00:02:52] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[00:02:53] [Worker-Main-3/INFO]: Preparing spawn area: 10%
-[00:02:53] [Worker-Main-1/INFO]: Preparing spawn area: 11%
-[00:02:54] [Worker-Main-3/INFO]: Preparing spawn area: 12%
-[00:02:54] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[00:02:55] [Worker-Main-2/INFO]: Preparing spawn area: 16%
-[00:02:55] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[00:02:56] [Worker-Main-2/INFO]: Preparing spawn area: 17%
-[00:02:56] [Worker-Main-3/INFO]: Preparing spawn area: 19%
-[00:02:57] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[00:02:57] [Worker-Main-2/INFO]: Preparing spawn area: 22%
-[00:02:58] [Worker-Main-3/INFO]: Preparing spawn area: 22%
-[00:02:58] [Worker-Main-1/INFO]: Preparing spawn area: 23%
-[00:02:59] [Worker-Main-2/INFO]: Preparing spawn area: 26%
-[00:02:59] [Worker-Main-3/INFO]: Preparing spawn area: 29%
-[00:03:00] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[00:03:00] [Worker-Main-3/INFO]: Preparing spawn area: 33%
-[00:03:01] [Worker-Main-3/INFO]: Preparing spawn area: 36%
-[00:03:01] [Worker-Main-2/INFO]: Preparing spawn area: 39%
-[00:03:02] [Worker-Main-3/INFO]: Preparing spawn area: 41%
-[00:03:02] [Worker-Main-3/INFO]: Preparing spawn area: 43%
-[00:03:03] [Worker-Main-1/INFO]: Preparing spawn area: 45%
-[00:03:03] [Worker-Main-2/INFO]: Preparing spawn area: 48%
-[00:03:04] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[00:03:04] [Worker-Main-1/INFO]: Preparing spawn area: 54%
-[00:03:05] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[00:03:05] [Worker-Main-2/INFO]: Preparing spawn area: 59%
-[00:03:06] [Worker-Main-2/INFO]: Preparing spawn area: 62%
-[00:03:06] [Worker-Main-1/INFO]: Preparing spawn area: 65%
-[00:03:07] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[00:03:07] [Worker-Main-3/INFO]: Preparing spawn area: 69%
-[00:03:08] [Worker-Main-1/INFO]: Preparing spawn area: 72%
-[00:03:08] [Worker-Main-2/INFO]: Preparing spawn area: 75%
-[00:03:09] [Worker-Main-2/INFO]: Preparing spawn area: 79%
-[00:03:09] [Worker-Main-2/INFO]: Preparing spawn area: 82%
-[00:03:10] [Worker-Main-2/INFO]: Preparing spawn area: 84%
-[00:03:10] [Worker-Main-3/INFO]: Preparing spawn area: 87%
-[00:03:11] [Worker-Main-2/INFO]: Preparing spawn area: 90%
-[00:03:11] [Worker-Main-1/INFO]: Preparing spawn area: 93%
-[00:03:12] [Worker-Main-3/INFO]: Preparing spawn area: 96%
-[00:03:12] [Server thread/INFO]: Time elapsed: 26007 ms
-[00:03:12] [Server thread/INFO]: Done (32.538s)! For help, type "help"
-[00:03:32] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56359] logged in with entity id 345 at (4.5, 72.0, 2.5)
-[00:03:32] [Server thread/INFO]: MauSlayer_ joined the game
-[00:03:32] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
-[00:03:32] [Server thread/INFO]: MauSlayer_ left the game
-[00:03:46] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56377] logged in with entity id 379 at (4.5, 72.0, 2.5)
-[00:03:46] [Server thread/INFO]: MauSlayer_ joined the game
-[00:03:46] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
-[00:03:46] [Server thread/INFO]: MauSlayer_ left the game
-[00:03:49] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56380] logged in with entity id 417 at (4.5, 72.0, 2.5)
-[00:03:49] [Server thread/INFO]: MauSlayer_ joined the game
-[00:03:49] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
-[00:03:49] [Server thread/INFO]: MauSlayer_ left the game
-[00:04:54] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56546] logged in with entity id 467 at (4.5, 72.0, 2.5)
-[00:04:54] [Server thread/INFO]: MauSlayer_ joined the game
-[00:04:55] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
-[00:04:55] [Server thread/INFO]: MauSlayer_ left the game
-[00:04:58] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56554] logged in with entity id 486 at (4.5, 72.0, 2.5)
-[00:04:58] [Server thread/INFO]: MauSlayer_ joined the game
-[00:04:59] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
-[00:04:59] [Server thread/INFO]: MauSlayer_ left the game
-[00:07:28] [Server thread/INFO]: MauSlayer_[/172.25.7.92:56815] logged in with entity id 507 at (4.5, 72.0, 2.5)
-[00:07:28] [Server thread/INFO]: MauSlayer_ joined the game
-[00:07:29] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
-[00:07:29] [Server thread/INFO]: MauSlayer_ left the game
+[00:30:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/bettermccarajomierda/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:31:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:31:03] [main/INFO]: Loaded 7 recipes
+[00:31:03] [main/INFO]: Loaded 1271 advancements
+[00:31:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:31:03] [Server thread/INFO]: Loading properties
+[00:31:03] [Server thread/INFO]: Default game type: SURVIVAL
+[00:31:03] [Server thread/INFO]: Generating keypair
+[00:31:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:31:04] [Server thread/INFO]: Using epoll channel type
+[00:31:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:31:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:31:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:31:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:31:04] [Server thread/INFO]: Preparing level "world"
+[00:31:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:31:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:31:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:31:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:31:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:31:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:31:09] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:31:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:31:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:31:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:31:11] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[00:31:11] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[00:31:12] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[00:31:12] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[00:31:13] [Worker-Main-3/INFO]: Preparing spawn area: 4%
+[00:31:13] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[00:31:14] [Worker-Main-3/INFO]: Preparing spawn area: 7%
+[00:31:14] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[00:31:15] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[00:31:15] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[00:31:16] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[00:31:16] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[00:31:17] [Worker-Main-1/INFO]: Preparing spawn area: 21%
+[00:31:17] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[00:31:18] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[00:31:18] [Worker-Main-1/INFO]: Preparing spawn area: 28%
+[00:31:19] [Worker-Main-3/INFO]: Preparing spawn area: 32%
+[00:31:19] [Worker-Main-1/INFO]: Preparing spawn area: 34%
+[00:31:20] [Worker-Main-2/INFO]: Preparing spawn area: 37%
+[00:31:20] [Worker-Main-1/INFO]: Preparing spawn area: 39%
+[00:31:21] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[00:31:21] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[00:31:22] [Worker-Main-1/INFO]: Preparing spawn area: 46%
+[00:31:22] [Worker-Main-1/INFO]: Preparing spawn area: 49%
+[00:31:23] [Worker-Main-1/INFO]: Preparing spawn area: 52%
+[00:31:23] [Worker-Main-3/INFO]: Preparing spawn area: 55%
+[00:31:24] [Worker-Main-1/INFO]: Preparing spawn area: 57%
+[00:31:24] [Worker-Main-3/INFO]: Preparing spawn area: 60%
+[00:31:25] [Worker-Main-2/INFO]: Preparing spawn area: 64%
+[00:31:25] [Worker-Main-3/INFO]: Preparing spawn area: 67%
+[00:31:26] [Worker-Main-2/INFO]: Preparing spawn area: 69%
+[00:31:26] [Worker-Main-1/INFO]: Preparing spawn area: 72%
+[00:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 74%
+[00:31:27] [Worker-Main-2/INFO]: Preparing spawn area: 78%
+[00:31:28] [Worker-Main-1/INFO]: Preparing spawn area: 80%
+[00:31:28] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[00:31:29] [Worker-Main-3/INFO]: Preparing spawn area: 85%
+[00:31:29] [Worker-Main-1/INFO]: Preparing spawn area: 88%
+[00:31:30] [Worker-Main-1/INFO]: Preparing spawn area: 91%
+[00:31:30] [Worker-Main-3/INFO]: Preparing spawn area: 94%
+[00:31:31] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[00:31:31] [Server thread/INFO]: Time elapsed: 24810 ms
+[00:31:31] [Server thread/INFO]: Done (27.255s)! For help, type "help"
+[00:31:53] [Server thread/INFO]: MauSlayer_[/172.25.7.92:58652] logged in with entity id 527 at (4.5, 72.0, 2.5)
+[00:31:53] [Server thread/INFO]: MauSlayer_ joined the game
+[00:31:54] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:31:54] [Server thread/INFO]: MauSlayer_ left the game
+[00:35:51] [Server thread/INFO]: MauSlayer_[/172.25.7.92:58943] logged in with entity id 535 at (4.5, 72.0, 2.5)
+[00:35:51] [Server thread/INFO]: MauSlayer_ joined the game
+[00:35:51] [Server thread/INFO]: MauSlayer_ lost connection: Disconnected
+[00:35:51] [Server thread/INFO]: MauSlayer_ left the game
